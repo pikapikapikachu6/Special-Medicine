@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Special Medicine shop</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="home.html">
+          <img src="https://medicineshop.co.za/wp-content/uploads/2020/08/medicine-shop-logo.png" class="nav-logo">
+        </a>
+      </div>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li class="services">
+            <a href="#">Services</a>
+            <ul class="dropdown">
+              <li><a href="#">Dropdown 1 </a></li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="Content-Main">
+    <div class="Content-Main1">
+      <h1>User Reflection</h1>
+    </div>
+    <form action="" method="post" class="form-report">
+      <label>
+        <span>Name: </span>
+        <input type="text" placeholder="">
+      </label>
+      <label>
+        <span>Email: </span>
+        <input type="text" placeholder="">
+      </label>
+      <label>
+        <span>Message:</span>
+        <textarea id="mesaage" name="message" placeholder="Here to type your messgae..."></textarea>
+      </label>
+      <label>
+        <span>Type:</span>
+        <select name="select1" class="select1">
+          <option value="General Question">General Question</option>
+          <option value="Suggestion">Suggestion</option>
+        </select>
+      </label>
+      <label>
+        <input type="button" class="send-button" value="Send" onclick="alert('Submit successfully!')">
+      </label>
+    </form>
+  </div>
+
+  <footer class=" footer">
+        <div class="footer-content-right">
+          <a href="https://github.com/"><img src="resource/GitHub-Mark-32px.png" class="icon-style"
+              alt="Github icon"></a>
+          <a href="https://www.twitter.com"><img src="resource/2021 Twitter logo - blue.png" class="icon-style"
+              alt="Twitter icon"></a>
+          <a href="https://www.linkedin.com/"><img src="resource/LI-In-Bug.png" class="icon-style"
+              alt="linkedin icon"></a>
+        </div>
+        </footer>
+</body>
+
+</html>
